@@ -4,7 +4,7 @@
 >
 > If this repo helps you, a star is the biggest support for me and also helps you stay up-to-date 
 ---
-> **Warning**
+
 > #### 2022-12-15 Update: Cloudflare are currently preventing the bot from receiving any further messages, so the bot is using the official GPT-3 API until this chaos about cat catching mice ends
 > 
 > 2022-12-12 Update: OpenAI added Cloudflare protections to their API in ChatGPT, there are some differences in using it on server and desktop environment
