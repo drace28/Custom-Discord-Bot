@@ -1,0 +1,64 @@
+{
+  "name": "notsotoxic/music-bot",
+  "timeout": 10000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/message/create/prefix/stop.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": "!rukja"
+      }
+    },
+    "functions/events/discord/message/create/prefix/pause.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": "!chup"
+      }
+    },
+    "functions/events/discord/message/status.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/bot/playback/queue-playback.js": {
+      "name": "discord.bot.playback.finished"
+    },
+    "functions/events/discord/message/create/prefix/resume.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": "!bol"
+      }
+    },
+    "functions/events/discord/message/create/prefix/queue.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": "!agla"
+      }
+    },
+    "functions/events/discord/bot/playback/finished.js": {
+      "name": "discord.bot.playback.finished"
+    },
+    "functions/events/discord/message/create/prefix/play.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": "!chala"
+      }
+    },
+    "functions/events/discord/message/create.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": "!skip"
+      }
+    },
+    "functions/events/discord/message/create/prefix.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": "!skip"
+      }
+    }
+  },
+  "env": [
+    {
+      "name": "VOICE_CHANNEL",
+      "description": "voice channel"
+    }
+  ]
+}

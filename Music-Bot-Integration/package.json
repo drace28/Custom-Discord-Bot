@@ -1,0 +1,16 @@
+{
+  "name": "new-project",
+  "author": "NotSoToxic",
+  "publish": false,
+  "dependencies": {
+    "lib": "latest",
+    "ytdl-core": "^4.11.2",
+    "yt-search": "^2.10.4",
+    "ytdl": "^1.4.1",
+    "discord.js": "^14.7.1",
+    "python": "^0.0.4",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-static": "^5.1.0",
+    "opusscript": "^0.0.8"
+  }
+}
