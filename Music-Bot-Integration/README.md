@@ -12,5 +12,5 @@ in the bottom right corner. Click on it to expand the preview.
 
 ## GitHub
 Should you decide to publish your projects and templates to GitHub,
-you can include an **Open in Autocode** button as displayed above.
+you can include an **Open in Autocode** button as displayed above..
 This will enable anybody to fork your project in Autocode directly.
