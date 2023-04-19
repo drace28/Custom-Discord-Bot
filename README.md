@@ -30,4 +30,4 @@ The Music Coammand coode runs solely on autode so the api's used are linked usin
 
 ## Deployment
 
-For the project deployment refer to each integration section seperately.
+For the project deployment refer to each integration section seperately. Refer the respective sections for detailed info
